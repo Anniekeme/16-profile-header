@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background-color: #faf9f6;
+  border-radius: 16px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 640px;
+  position: relative;
+}
+
+.left-content {
+  width: 50%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-bottom: 15px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.name-handle {
+  flex-grow: 1;
+  margin-top: 18px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 4px;
+}
+
+.handle {
+  color: #666;
+  font-size: 13px;
+  margin: 0;
+}
+
+.description {
+  margin-bottom: 15px;
+}
+
+.right-content {
+  position: absolute;
+  right: 20px;
+  top: 60px;
+  width: 40%;
+  text-align: right;
+}
+
+.progress-container {
+  margin-bottom: 10px;
+}
+
+.progress-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.organizations {
+  font-size: 14px;
+  color: #666;
+  font-weight: 600;
+}
+
+.info-icon {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #666;
+}
+
+.progress-bar {
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  height: 8px;
+  position: relative;
+}
+
+.progress {
+  background-color: #f17a37;
+  border-radius: 10px;
+  height: 100%;
+  width: 75%;
+}
+
+.followers {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.follow-button {
+  background-color: #1a2236;
+  color: white;
+  border: none;
+  padding: 15px 45px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.follow-btn {
+  margin-top: 90px;
+}
